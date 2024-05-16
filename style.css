@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black-color: #0e0e0e;
+  --white-color: #ffffff;
+  background: var(--black-color);
+}
+
+.NavBar {
+  width: 100%;
+  height: 5vh;
+  background: #0e0e0e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.NavBar img {
+  width: 10%;
+  height: 80%;
+}
+
+.list-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  color: var(--white-color);
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.right-nav {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.right-nav div {
+  background-color: var(--white-color);
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+
+  flex-direction: column;
+}
+
+.first-section div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.first-section div h1 {
+  color: var(--white-color);
+  font-size: 4em;
+  text-align: center;
+}
+.first-section div p {
+  color: var(--white-color);
+  font-size: 2em;
+}
+
+.second-section {
+  width: 100%;
+  display: flex;
+  height: max-content;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.second-section div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+}
+.second-section-container {
+  width: 30%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.second-section-container img {
+  height: 50%;
+  width: 80%;
+}
+
+.second-section-text {
+  color: var(--white-color);
+  font-size: 2em;
+}
+
+.third-section {
+  height: 50vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.third-section div img {
+  width: 50%;
+}
